@@ -37,3 +37,17 @@
 
 * **Точка входа (Main класс):** [`com.ekaterinakok.javabasics.task3.StudentTest`](./src/main/java/com/ekaterinakok/javabasics/task3/StudentTest.java)
 ---
+## ✏️ Задача 4: Перегрузка методов и конструкторов (Классы OverloadedSum и Student)
+* **Цель:** Изучение перегрузки методов (`method overloading`) и перегрузку конструкторов (`constructor overloading`), переиспользование кода внутри одного класса и управление инициализацией объектов с разным набором данных.
+* **Условие:**  
+    1\. Создать класс `OverloadedSum`, содержащий 5 перегруженных методов для вычисления суммы от 0 до 4 целых чисел соответственно. Если параметры отсутствуют, сумма должна быть равна 0. Методы должны возвращать результат и выводить его на экран. Продемонстрировать работу методов.    
+    2\. Модернизировать ранее созданный класс `Student` из задачи №3 (task3), добавив в него 3 конструктора:  
+        - Полный конструктор (принимает все параметры).  
+        - Частичный конструктор (принимает только `id`, `firstName`, `lastName`, `courseYear`).  
+        - Пустой конструктор по умолчанию (не принимает значений).    
+    3\. В тестовом классе создать 3 различных объекта студентов с помощью разных конструкторов.
+
+* **Точки входа (Main классы):**
+    - [`com.ekaterinakok.javabasics.task4.OverloadedSum`](./src/main/java/com/ekaterinakok/javabasics/task4/OverloadedSum.java)
+    - [`com.ekaterinakok.javabasics.task4.OverloadedStudentTest`](./src/main/java/com/ekaterinakok/javabasics/task4/OverloadedStudentTest.java)
+---
