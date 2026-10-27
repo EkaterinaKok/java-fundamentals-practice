@@ -1,3 +1,5 @@
+# Часть 1
+
 # 📋 Список практических задач
 
 Ниже представлена интерактивная карта задач первой части курса:
@@ -50,4 +52,19 @@
 * **Точки входа (Main классы):**
     - [`com.ekaterinakok.javabasics.task4.OverloadedSum`](./src/main/java/com/ekaterinakok/javabasics/task4/OverloadedSum.java)
     - [`com.ekaterinakok.javabasics.task4.OverloadedStudentTest`](./src/main/java/com/ekaterinakok/javabasics/task4/OverloadedStudentTest.java)
+---
+## ✏️ Задача 5: Понятие package. Модификаторы видимости (access modifiers)
+* **Цель:** Изучение организации структуры проекта с помощью пакетов (`package`) и практическое применение модификаторов доступа (`public`, `default` / пакетный, `private`) для полей, методов и конструкторов.
+* **Условие:**  
+  1\. Создать класс `Employee` со следующими правилами видимости полей:    
+  — `salary` — недоступна вне класса.    
+  — `surname` — доступна отовсюду.    
+  — `id` — доступен только внутри пакета.    
+  2\. Добавить в `Employee` 3 `public` метода для вывода на дисплей значения каждой переменной по отдельности.    
+  3\. Реализовать для `Employee` 3 разных конструктора с модификаторами доступа: `public`, `default` (пакетный) и `private`. В конструкторах присваивать переменным класса значения из параметров.    
+  4\. Создать новые классы в том же и в другом пакете. Попытаться в них создать объекты класса `Employee` и вывести на экран значения данного объекта с помощью метода `println` и методов самого класса.
+
+* **Точки входа (Main классы):**
+    * [`com.ekaterinakok.javabasics.task5.samepackage.EmployeeTestSame`](./src/main/java/com/ekaterinakok/javabasics/task5/samepackage/EmployeeTestSame.java)
+    * [`com.ekaterinakok.javabasics.task5.otherpackage.EmployeeTestOther`](./src/main/java/com/ekaterinakok/javabasics/task5/otherpackage/EmployeeTestOther.java)
 ---
