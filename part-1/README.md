@@ -26,7 +26,7 @@
 Вот последняя правда, открытая мной.
                                 О. Хайям
 ```
-* **Точка входа (Main класс):** [`com.ekaterinakok.javabasics.task1.QuatrainPrinter`](./src/main/java/com/ekaterinakok/javabasics/task1/QuatrainPrinter.java)
+* **Точка входа:** [`com.ekaterinakok.javabasics.task1.QuatrainPrinter`](./src/main/java/com/ekaterinakok/javabasics/task1/QuatrainPrinter.java)
 
 ---
 ## ✏️ Задача 2: Литералы и типы данных (Системы счисления)
@@ -36,7 +36,7 @@
   2\. Создать по 2 переменные типов `float`, `double`, `boolean`. Вывести их на экран.  
   3\. Создать несколько переменных типа `char` всеми возможными способами (символ, Unicode-код, целочисленный код). Вывести их на экран.
 
-* **Точка входа (Main класс):** [`com.ekaterinakok.javabasics.task2.DataTypesDemo`](./src/main/java/com/ekaterinakok/javabasics/task2/DataTypesDemo.java)
+* **Точка входа:** [`com.ekaterinakok.javabasics.task2.DataTypesDemo`](./src/main/java/com/ekaterinakok/javabasics/task2/DataTypesDemo.java)
 ---
 ## ✏️ Задача 3: Объектно-ориентированное программирование и расчет оценок (Класс Student)
 * **Цель:** Изучение базовых концепций ООП в Java: создание классов, определение атрибутов (полей), инициализация объектов через конструкторы, применение арифметических операций для расчета средних показателей.
@@ -45,7 +45,7 @@
     2\. Создать класс `StudentTest`, в котором инициализируются 3 различных объекта класса `Student`.  
     3\. Вывести на экран в читабельном виде среднюю арифметическую оценку каждого студента по всем трем предметам.
 
-* **Точка входа (Main класс):** [`com.ekaterinakok.javabasics.task3.StudentTest`](./src/main/java/com/ekaterinakok/javabasics/task3/StudentTest.java)
+* **Точка входа:** [`com.ekaterinakok.javabasics.task3.StudentTest`](./src/main/java/com/ekaterinakok/javabasics/task3/StudentTest.java)
 ---
 ## ✏️ Задача 4: Перегрузка методов и конструкторов (Классы OverloadedSum и Student)
 * **Цель:** Изучение перегрузки методов (`method overloading`) и перегрузку конструкторов (`constructor overloading`), переиспользование кода внутри одного класса и управление инициализацией объектов с разным набором данных.
@@ -57,7 +57,7 @@
         - Пустой конструктор по умолчанию (не принимает значений).    
     3\. В тестовом классе создать 3 различных объекта студентов с помощью разных конструкторов.
 
-* **Точки входа (Main классы):**
+* **Точки входа:**
     - [`com.ekaterinakok.javabasics.task4.OverloadedSum`](./src/main/java/com/ekaterinakok/javabasics/task4/OverloadedSum.java)
     - [`com.ekaterinakok.javabasics.task4.OverloadedStudentTest`](./src/main/java/com/ekaterinakok/javabasics/task4/OverloadedStudentTest.java)
 ---
@@ -72,7 +72,7 @@
   3\. Реализовать для `Employee` 3 разных конструктора с модификаторами доступа: `public`, `default` (пакетный) и `private`. В конструкторах присваивать переменным класса значения из параметров.    
   4\. Создать новые классы в том же и в другом пакете. Попытаться в них создать объекты класса `Employee` и вывести на экран значения данного объекта с помощью метода `println` и методов самого класса.
 
-* **Точки входа (Main классы):**
+* **Точки входа:**
     * [`com.ekaterinakok.javabasics.task5.samepackage.EmployeeTestSame`](./src/main/java/com/ekaterinakok/javabasics/task5/samepackage/EmployeeTestSame.java)
     * [`com.ekaterinakok.javabasics.task5.otherpackage.EmployeeTestOther`](./src/main/java/com/ekaterinakok/javabasics/task5/otherpackage/EmployeeTestOther.java)
 ---
@@ -82,7 +82,7 @@
   1\. В первом классе создать 2 `static` метода. 1-ый умножает 3 числа из параметров и возвращает их произведение. 2-ой — делит первое число на второе, ничего не возвращает (`void`), выводит в консоль в читабельном виде целое частное и остаток. Во втором классе вызвать данные методы по два раза.  
   2\. В первом классе создать константу `static final double ПИ = 3.14`. Использовать её в `non-static` методе вычисления площади круга ($S = \pi \cdot r^2$) и в `static` методе вычисления длины окружности ($L = 2 \cdot \pi \cdot r$). Создать третий `non-static` метод, выводящий на экран всю собранную информацию о круге. Продемонстрировать работу всех 3 методов во 2-м классе.
 
-* **Точка входа (Main класс):** [`com.ekaterinakok.javabasics.task6.Task6Demo`](./src/main/java/com/ekaterinakok/javabasics/task6/Task6Demo.java)
+* **Точка входа:** [`com.ekaterinakok.javabasics.task6.Task6Demo`](./src/main/java/com/ekaterinakok/javabasics/task6/Task6Demo.java)
 ---
 ## ✏️ Задача 7: Разновидности переменных, пределы их видимости и жизненный цикл объектов
 * **Цель:** Изучение типов переменных в Java (локальные, переменные экземпляра, переменные класса), определение границ их областей видимости, а также практическое понимание жизненного цикла объектов и условий, при которых объект становится доступным для сборщика мусора (Garbage Collector).
@@ -90,6 +90,16 @@
   1\. Создать программу, в которой в методе `main` различными способами инициализируются 8 объектов.  
   2\. Управлять ссылками на объекты (через выход из области видимости, обнуление ссылок, перезапись или анонимное создание) так, чтобы к последней строчке метода `main` в памяти оставались доступными (имели активные ссылки) **ровно 2 объекта** из 8.
 
-* **Точка входа (Main класс):** [`com.ekaterinakok.javabasics.task7.ObjectLifecycleDemo`](./src/main/java/com/ekaterinakok/javabasics/task7/ObjectLifecycleDemo.java)
+* **Точка входа:** [`com.ekaterinakok.javabasics.task7.ObjectLifecycleDemo`](./src/main/java/com/ekaterinakok/javabasics/task7/ObjectLifecycleDemo.java)
+---
+## ✏️ Задача 8: Понятия import и import static. Использование комментариев
+* **Цель:** Изучение механизмов организации структуры проекта с помощью пакетов и подпакетов, управление видимостью членов классов, освоение импорта классов (`import`) и статических элементов (`import static`), а также закрепление навыков документирования кода с помощью JavaDoc.
+* **Условие:**  
+  1\. Создать пакет `p1` с классом `A`. Внутри `p1` создать подпакет `p2` с классом `B`, содержащим статические (`static`) элементы. Внутри `p2` создать подпакет `p3` с классом `C`.  
+  2\. Создать отдельный пакет `p4` с классом `D`. Внутри `p4` создать подпакет `p5` с классом `E`.  
+  3\. Внутри класса `D` написать демонстрационный код, который взаимодействует с элементами классов `A`, `C`, `E`, а также обращается к статическим элементам класса `B`.  
+  4\. Использовать ключевые слова `import` и `import static` для работы исключительно с короткими (не полными) именами классов и их статических членов.
+
+* **Точка входа:** [`com.ekaterinakok.javabasics.task8.p4.D`](./src/main/java/com/ekaterinakok/javabasics/task8/p4/D.java)
 ---
 <div style="text-align: center;"><i>Репозиторий активно поддерживается и обновляется. 💻✨</i></div>
